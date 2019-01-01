@@ -1,28 +1,70 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="hero is-fullheight" id="app">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-two-thirds-desktop">
+            <h1 class="title">Angelo Cordon</h1>
+            <h2 class="subtitle is-uppercase">Front End Engineer</h2>
+
+            <p class="content">
+              I build products that empower people become their best selves. I enjoy merging technical complexities with visual aesthetics to create meaningful user experiences. As a product designer and developer, I value the outcome of my work and strive to make an emotional impact to users.
+            </p>
+
+            <nav class="menu">
+              <ul class="menu-list">
+                <li>
+                  <a href="mailto:angelocordon@gmail.com">Email</a>
+                </li>
+                <li><a href="https://twitter.com/angelocordon">Twitter</a></li>
+                <li>
+                  <a href="https://linkedin.com/in/angelocordon/">LinkedIn</a>
+                </li>
+                <li><a href="https://medium.com/@angelocordon">Medium</a></li>
+                <li>
+                  <a href="https://dribbble.com/angelocordon">Dribbble</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'app',
-  components: {
-    HelloWorld
-  }
+  name: 'app'
 }
 </script>
 
 <style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  html {
+    background-color: #fff;
+    padding: 1rem;
+  }
+
+  body {
+    background-color: #f8f8f8;
+    color: #353639;
+    font-family: 'Source Serif Pro';
+    letter-spacing: 1px;
+    line-height: 1.8;
+  }
+
+  .title,
+  .subtitle { font-family: 'Source Sans Pro' }
+
+  .title { color: #3f58cb }
+
+  .subtitle {
+    color: #1f2d6b;
+    font-weight: 600;
+  }
+
+  .menu-list a {
+    color: #3f58cb;
+    &:hover { color: #1f2d6b }
+  }
 </style>
