@@ -1,5 +1,5 @@
 <template>
-  <div class="hero is-fullheight" id="app">
+  <div class="hero is-fullheight-with-navbar" id="app">
     <div class="hero-body">
       <div class="container">
         <div class="columns">
@@ -10,7 +10,7 @@
             <p class="content">
               I build products that empower people become their best selves. I enjoy merging technical complexities with visual aesthetics to create meaningful user experiences. As a product designer and developer, I value the outcome of my work and strive to make an emotional impact to users.
             </p>
-
+            <MainMessage />
             <MainNavigation />
           </div>
         </div>
@@ -21,10 +21,11 @@
 
 <script>
 import MainNavigation from './components/MainNavigation'
+import MainMessage from './components/MainMessage'
 
 export default {
   name: 'app',
-  components: { MainNavigation }
+  components: { MainNavigation, MainMessage }
 }
 </script>
 
