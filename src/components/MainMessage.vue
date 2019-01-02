@@ -15,7 +15,7 @@
     </div>
     <div class="message-body">
       <p>
-        I'm open to new career opportuinities in San Francisco, California.
+        I'm open to new career opportunities in San Francisco, California.
       </p>
     </div>
   </div>
