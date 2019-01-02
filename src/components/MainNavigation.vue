@@ -2,9 +2,6 @@
   <nav class="menu">
     <p class="menu-label">Elsewhere</p>
     <ul class="menu-list">
-      <li>
-        <a href="mailto:angelocordon@gmail.com">Email</a>
-      </li>
       <li><a href="https://twitter.com/angelocordon">Twitter</a></li>
       <li>
         <a href="https://linkedin.com/in/angelocordon/">LinkedIn</a>

@@ -2,14 +2,20 @@
   <div class="message is-info">
     <div class="message-header">
       Hiring?
-      <a href="angelo-cordon-resume.pdf"
-        class="button is-small has-text-weight-semibold is-uppercase is-info">
-        View Resume
-      </a>
+      <div class="buttons has-addons is-right">
+        <a href="mailto:angelocordon@gmail.com"
+           class="button is-small has-text-weight-semibold is-uppercase is-info">
+          Email Me
+        </a>
+        <a href="angelo-cordon-resume.pdf"
+          class="button is-small has-text-weight-semibold is-uppercase is-info">
+          View Resume
+        </a>
+      </div>
     </div>
     <div class="message-body">
       <p>
-        I'm open to new career opportuinities in San Francisco, CA.
+        I'm open to new career opportuinities in San Francisco, California.
       </p>
     </div>
   </div>
