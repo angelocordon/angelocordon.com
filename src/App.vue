@@ -11,21 +11,7 @@
               I build products that empower people become their best selves. I enjoy merging technical complexities with visual aesthetics to create meaningful user experiences. As a product designer and developer, I value the outcome of my work and strive to make an emotional impact to users.
             </p>
 
-            <nav class="menu">
-              <ul class="menu-list">
-                <li>
-                  <a href="mailto:angelocordon@gmail.com">Email</a>
-                </li>
-                <li><a href="https://twitter.com/angelocordon">Twitter</a></li>
-                <li>
-                  <a href="https://linkedin.com/in/angelocordon/">LinkedIn</a>
-                </li>
-                <li><a href="https://medium.com/@angelocordon">Medium</a></li>
-                <li>
-                  <a href="https://dribbble.com/angelocordon">Dribbble</a>
-                </li>
-              </ul>
-            </nav>
+            <MainNavigation />
           </div>
         </div>
       </div>
@@ -34,8 +20,11 @@
 </template>
 
 <script>
+import MainNavigation from './components/MainNavigation'
+
 export default {
-  name: 'app'
+  name: 'app',
+  components: { MainNavigation }
 }
 </script>
 
@@ -61,10 +50,5 @@ export default {
   .subtitle {
     color: #1f2d6b;
     font-weight: 600;
-  }
-
-  .menu-list a {
-    color: #3f58cb;
-    &:hover { color: #1f2d6b }
   }
 </style>
