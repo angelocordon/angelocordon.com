@@ -6,6 +6,9 @@
       <li>
         <a href="https://linkedin.com/in/angelocordon/">LinkedIn</a>
       </li>
+      <li>
+        <a href="https://github.com/angelocordon">GitHub</a>
+      </li>
       <li><a href="https://medium.com/@angelocordon">Medium</a></li>
       <li>
         <a href="https://dribbble.com/angelocordon">Dribbble</a>
