@@ -23,12 +23,14 @@ export default {
   height: 1.5em;
   width: 1.5em;
   background-color: #3f58cb;
+  background-image: linear-gradient(-134deg, #3f58cb 0%, #543FCC 100%);
   border-radius: 10px;
   box-shadow: 0 2px 4px 0 #758AE6;
   font-size: 4rem;
   color: #fff;
   text-align: center;
   line-height: 1.5em;
+  text-shadow: 0px 2px 4px rgba(24,33,77,0.50);
   &:before,
   &:after {
     position: absolute;
