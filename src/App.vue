@@ -4,6 +4,7 @@
       <div class="container">
         <div class="columns">
           <div class="column is-two-thirds-desktop">
+            <LogoMark />
             <h1 class="title">Angelo Cordon</h1>
             <h2 class="subtitle is-uppercase">Front End Engineer</h2>
 
@@ -20,12 +21,17 @@
 </template>
 
 <script>
+import LogoMark from './components/LogoMark'
 import MainNavigation from './components/MainNavigation'
 import MainMessage from './components/MainMessage'
 
 export default {
   name: 'app',
-  components: { MainNavigation, MainMessage }
+  components: {
+    MainNavigation,
+    MainMessage,
+    LogoMark 
+  }
 }
 </script>
 
