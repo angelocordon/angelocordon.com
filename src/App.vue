@@ -6,8 +6,6 @@
           <div class="column is-two-thirds-desktop">
             <LogoMark />
             <h1 class="title">Angelo Cordon</h1>
-            <h2 class="subtitle is-uppercase">Front End Engineer</h2>
-
             <p class="content">
               I build products that empower people become their best selves. I enjoy merging technical complexities with visual aesthetics to create meaningful user experiences. As a product designer and developer, I value the outcome of my work and strive to make an emotional impact to users.
             </p>
@@ -30,7 +28,7 @@ export default {
   components: {
     MainNavigation,
     MainMessage,
-    LogoMark 
+    LogoMark
   }
 }
 </script>
